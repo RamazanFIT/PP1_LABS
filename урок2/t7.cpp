@@ -26,7 +26,7 @@ int main() {
         
     }
     cout << maximum - minimum << endl;
-
+    // 3
     // int massive[3];
     // for(int i = 0; i < 3; i++){
     //     cin >> massive[i];
