@@ -1,13 +1,14 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
-int n, k;
-
 int main(){
-	cin>>n>>k;
-	if(n<k){
-		cout<<2;
-		return 0;
-	}
-	cout<<(n*2+k-1)/k;
+    
+    int n;
+    cin>>n;
+    if((n % 4 == 0 && n % 100 != 0) || (n % 400 == 0)){
+        cout << "YES";
+    } else{
+        cout << "NO";
+    }
 }
