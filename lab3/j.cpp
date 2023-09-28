@@ -1,17 +1,34 @@
 #include <bits/stdc++.h>
+#define ENDL "\n"
+#define endd return 0;
 using namespace std;
-#define ll long long;
 
-int a[100005], n, x;
+signed main(){
+    
+   
+    int n;
+    cin >> n;
+    int x;
+    cin >> x;
 
-int main(){
-	cin>>n>>x;
-	for(int i=0; i<n; i++){
-		cin>>a[i];
-	}
-	int k=lower_bound(a, a+n, x)-a;
-	if(a[k]==x){
-		k++;
-	}
-	cout<<k;
+    int w[n];
+    for(int i = 0; i < n; i++) cin >> w[i];
+    for(int i = 0; i < n; i++){
+        if(x == w[i]){
+            cout << i;
+            return 0;
+        }
+    }
+    for(int i = n - 1; i >= 0; i--){
+        if(x > w[i]){
+            cout << i + 1;
+            return 0;
+        }
+    }
+    
+    
+    
+
+
+    endd
 }
