@@ -24,7 +24,7 @@ int main(){
         if(maximum == massive[i]){
             cout << i << " ";
             // return 0; //вся программа
-            // break; //цикл for или while
+            break; //цикл for или while
         }
     }
 
