@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     
-    string s;
+    string s; // RAMAZAN
     cin >> s;
     string reversed_s = s;
     reverse(reversed_s.begin(), reversed_s.end());
