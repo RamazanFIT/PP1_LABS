@@ -10,6 +10,7 @@ int gcdd(int a, int b){
     }
 }
 
+
 int main(){
     
     int n;
@@ -23,11 +24,12 @@ int main(){
 
     for(int i = 0; i < n; i++){
         for(int j = i + 1; j < n; j++){
-            int gcd_own = gcdd(massive[i], massive[j]);
+            int gcd_own = gcd(massive[i], massive[j]);
             if(gcd_own > maximum){
                 maximum = gcd_own;
             }
         }
     }
+    
     cout << maximum;
 }

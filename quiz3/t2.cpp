@@ -23,7 +23,7 @@ bool not_contain_number(string d){
 int main(){
     
     string s;
-
+// rama232zan is t323he best dilnaz
     while(cin >> s){
         if(not_contain_number(s)){
             cout << s << endl;

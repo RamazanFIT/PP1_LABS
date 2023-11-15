@@ -19,6 +19,7 @@ bool not_contain_number(string d){
     }
     return true;
 }
+// rama232zan is t323he best dilnaz
 int main(){ 
     string s; 
     getline(cin, s); 
